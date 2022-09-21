@@ -80,6 +80,7 @@ section .container .left {
 
 section .container .left h1 {
     font-size: 6rem;
+    color: gray;
 }
 
 section .container .left h2 {
