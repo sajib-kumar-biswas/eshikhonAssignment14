@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/* container */
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* img */
+img {
+    width: 100%;
+}
+
+header {
+    background-color: #6F38C5;
+    color: white;
+    padding: 3rem;
+    text-align: center;
+}
+
+header nav ul li a {
+    font-size: 1.5rem;
+}
+
+header nav ul li a:link {
+    color: white;
+}
+
+header nav ul li a:visited {
+    color: white;
+}
+
+header nav ul li a:active {
+    color: white;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav ul {
+    display: flex;
+    gap: 2rem;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 5rem 0 1rem 0;
+}
+
+header p {
+    margin: 1rem 0 5rem 0;
+}
+
+/* end of header section styling */
+
+/* start of contact us section or whatever */
+
+section .container {
+    display: flex;
+    gap: 5rem;
+    padding: 5rem 0;
+}
+
+section .container .left {
+    flex: 50%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+section .container .left h1 {
+    font-size: 6rem;
+}
+
+section .container .left h2 {
+    font-size: 2.5rem;
+}
+
+section .container .left p {
+    text-align: justify;
+}
+
+section .container .left button {
+    padding: 1rem;
+    background-color: #6F38C5;
+    color: white;
+    font-weight: 600;
+    width:fit-content;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+section .container .right {
+    flex: 50%;
+    box-sizing: border-box;
+}
+
+/* start of footer section */
+section.footer {
+    height: 600px;
+    background-image: url('../images/footer1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section.footer .container{
+    display: flex;
+}
+
+section.footer .container>div {
+    flex: 1;
+    line-height: 2.5;
+}
+
+section.footer .container .logoContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+section.footer .container .logoContainer img {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    margin-right: 0.5rem;
+}
